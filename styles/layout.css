@@ -125,8 +125,12 @@ div.scrollbar {
 .rowWorks {
   display: flex;
   justify-content: space-around;
-  margin: 15px 0px;
   transition: 1s ease-in-out;
+}
+
+.rowWorks > img {
+  width: 160px;
+  height: 160px;
 }
 
 .rowWorks > img:hover {
